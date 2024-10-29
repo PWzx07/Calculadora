@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    top: 5rem;
+}
+
+
+
+#minhaSecao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(51, 50, 53);
+    color: rgb(255, 216, 216);
+}
+
+table{
+    background-color: rgb(196, 144, 48);
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 216, 216);
+    width: 20px;
+}

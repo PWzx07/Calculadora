@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="./css/calculadora.css">
+    <script defer src="./js/calculadora.js"></script>
+</head>
+<body>
+    <div>
+        <div class="calculadora">
+            <section id="minhaSecao"></section>
+        </div>
+   <table>
+        <tr class="l1">
+            <td><button id="n1">1</button></td>
+            <td><button id="n2">2</button></td>
+            <td><button id="n3">3</button></td>
+            <td><button id="delete" onclick="del()">C</button></td>
+        </tr>
+        <tr class="l2">
+            <td><button id="n4">4</button></td>
+            <td><button id="n5">5</button></td>
+            <td><button id="n6">6</button></td>
+            <td><button id="multi">x</button></td>
+        </tr>
+        <tr class="l3">
+            <td><button id="n7">7</button></td>
+            <td><button id="n8">8</button></td>
+            <td><button id="n9">9</button></td>
+            <td><button id="div">/</button></td>
+        </tr>
+        <tr class="ops">
+            <td><button id="result" onclick="calculate()">=</button></td>
+            <td><button id="n0">0</button></td>
+            <td><button id="sub">-</button></td>
+            <td><button id="soma">+</button></td>
+        </tr>
+    </div>    
+</body>
+</html>
